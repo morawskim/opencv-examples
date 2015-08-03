@@ -4,7 +4,11 @@ Compiling
 ===========================
 Download git repo
 
-    git clone  
+    git clone git://github.com/morawskim/opencv-examples.git 
+
+Go to facedetection subdir
+
+    cd ./facedetection
 
 Go to build dir
 
@@ -18,11 +22,6 @@ Compile
 
     make
     
-Add run
+Add finally run program
 
     opencv_facedetection path/to/image/with/people.jpg
-
-TODO
-===========================
-* Unit test
-* new filters (white and blacklist email address)
